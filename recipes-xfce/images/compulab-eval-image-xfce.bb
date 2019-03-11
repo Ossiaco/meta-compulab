@@ -1,7 +1,7 @@
 DESCRIPTION = "CompuLab XFCE desktop demo image."
 LICENSE = "MIT"
 
-require recipes-fsl/images/fsl-image-qt5-validation-imx.bb
+require dynamic-layers/qt5-layer/recipes-fsl/images/fsl-image-qt5-validation-imx.bb
 
 inherit distro_features_check
 
